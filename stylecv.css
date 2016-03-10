@@ -1,0 +1,281 @@
+@CHARSET "UTF-8";
+
+body {
+	background: #101010;
+	color: #808080;
+	font-weight: 400;
+}
+
+.img-responsive {
+	border-radius: 20px;
+}
+
+.navbar-default .navbar-brand {
+	font-size: 40px;
+	line-height: 40px;
+	padding-top: 4px;
+}
+
+.navbar-default .navbar-toggle {
+	background: #d54ab6;
+	border-radius: 0px;
+	border: none;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+.navbar-default {
+	border: none;
+	border-left: 6px solid #4449c8;
+	padding-right: 40px;
+	margin: 0 !important;
+	position: relative;
+	top: 20px;
+}
+
+.navbar {
+	background-color: #90d794;
+	font-weight: bold;
+	text-transform: uppercase;
+	opacity: 0.9;
+	top: 20px;
+}
+
+.navbar ul {
+	font-size: 15px;
+}
+
+.navbar ul li {
+	display: inline;
+	margin-left: 20px;
+}
+
+.navbar a {
+	color: #003366;
+	text-decoration: none;
+}
+
+.navbar a:hover {
+	color: #007dc6;
+}
+
+.navbar a:active {
+	color: #867dc6;
+}
+
+.navbar-static-bottom {
+	margin-top: 10px;
+}
+
+.navbar-static-bottom p {
+	padding-top: 20px;
+}
+
+.social a {
+	/* tamanho da imagem*/
+	height: 32px;
+	width: 32px;
+	/*aplicando o image-replacement*/
+	display: block;
+	text-indent: -9999px;
+}
+
+.social a[href*="facebook.com"] {
+	background-image: url(../img/facebook.png);
+}
+
+.social a[href*="twitter.com"] {
+	background-image: url(../img/twitter.png);
+}
+
+.social a[href*="plus.google.com"] {
+	background-image: url(../img/googleplus.png);
+}
+
+.social {
+	position: absolute;
+	top: 10px;
+}
+
+.social li {
+	float: left;
+	margin-left: 25px;
+}
+
+#home {
+	background: url('../img/imgHome.jpg') no-repeat;
+	background-size: cover;
+	background-position: center;
+	min-height: 500px;
+	padding-top: 180px;
+	padding-bottom: 100px;
+}
+
+#home h1, #home h3 {
+	line-height: 30px;
+	font-size: 40px;
+}
+
+.sobre {
+	color: #fff;
+	text-align: justify;
+}
+
+.sobre h2 {
+	padding-bottom: 4px;
+}
+
+.sobre .sobre-flutuante {
+	padding: 40px 20px 40px 20px;
+	position: relative;
+	bottom: 40px;
+	transition: all 0.4s ease-in;
+}
+
+.sobre .sobre-flutuante:hover {
+	bottom: 60px;
+	cursor: pointer;
+}
+
+.sobre .sobre-pessoal {
+	background: #45b12d;
+}
+
+.sobre .sobre-skills {
+	background: #494bef;
+}
+
+.progress {
+	height: 34px;
+	box-shadow: none;
+	border-radius: 0;
+	background-color: #e7e7e7;
+	margin-bottom: 10px;
+}
+
+.sobre-flutuante ul li {
+	list-style: none;
+}
+
+.progress-bar {
+	line-height: 34px;
+	text-align: left;
+	padding-left: 15px;
+	text-transform: uppercase;
+	font-weight: 700;
+	background-color: #ec523f;
+	box-shadow: none;
+}
+
+.sobre .sobre-linguas {
+	background: #cdc332;
+}
+
+h1, h2, h3, h4 {
+	color: #fff;
+	font-weight: bold;
+	text-transform: capitalize;
+	text-align: center;
+}
+
+#portfolio-header {
+	background: url('../img/portfolio-header.jpg') no-repeat;
+	background-size: cover;
+	background-position: center;
+	min-height: 500px;
+	padding-top: 160px;
+}
+
+#portfolio {
+	text-align: center;
+	padding-top: 80px;
+	padding-bottom: 60px;
+}
+
+#portfolio h2 {
+	padding-bottom: 20px;
+}
+
+#portfolio li {
+	display: inline-block;
+	vertical-align: top;
+	width: 140px;
+	margin: 2px;
+}
+
+#portfolio img {
+	width: 100%;
+	transition: all 0.4s ease-in;
+	opacity: 0.8;
+}
+
+#portfolio img:hover {
+	opacity: 1;
+}
+
+#portfolio .btn {
+	margin-top: 30px;
+}
+
+.media li {
+	display: inline-block;
+	vertical-align: top;
+	margin: 10px;
+	padding-bottom: 10px;
+}
+
+.media * {
+	border-radius: 10px;
+}
+
+.formulario input {
+	float: left;
+	clear: right;
+}
+
+button, input, select, textarea {
+	font-size: 100%;
+	margin: 0;
+	border: 1px solid #d5d5d5;
+	padding: 10px 12px;
+	color: #666666;
+}
+
+button, input {
+	line-height: normal;
+	overflow: visible;
+}
+
+button:focus, input:focus {
+	border-color: #666666;
+}
+
+.btn {
+	border-radius: 8px;
+	padding: 12px 20px;
+	text-transform: uppercase;
+	font-weight: 700;
+	padding: 12px 20px;
+}
+
+.fb-like {
+	top: 20px;
+	float: left;
+	clear: both;
+	left: 30%;
+	position: relative;
+}
+
+#voltar-topo {
+	background-color: #33c246;
+	color: white;
+	padding: 10px 20px;
+	margin: auto;
+	margin-right: -100px;
+	font-weight: 700;
+	text-decoration: none;
+}
+
+li{
+	list-style: none;
+}
